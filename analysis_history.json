@@ -7,5 +7,23 @@
     "skills_found": "Python, SQL, MySQL, AI, Git, Pandas, NumPy",
     "missing_skills": "C++",
     "analysis_date": "2025-09-21T05:10:10.934033"
+  },
+  {
+    "resume_filename": "Resume - 9.pdf",
+    "jd_source": "Sample JD",
+    "relevance_score": 40.207780609337185,
+    "verdict": "Medium Suitability",
+    "skills_found": "Python, SQL, MySQL, AI, Django, Pandas, NumPy",
+    "missing_skills": "Java, JavaScript, React, AWS, Machine Learning, Docker, Git, REST API",
+    "analysis_date": "2025-09-21T06:56:14.387645"
+  },
+  {
+    "resume_filename": "Resume - 10.pdf",
+    "jd_source": "Sample JD",
+    "relevance_score": 28.576218785428196,
+    "verdict": "Low Suitability",
+    "skills_found": "Python, SQL, AI, Git",
+    "missing_skills": "Java, JavaScript, React, AWS, Machine Learning, Docker, REST API",
+    "analysis_date": "2025-09-21T06:58:42.869240"
   }
 ]

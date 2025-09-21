@@ -110,12 +110,12 @@ def main():
         if page == "Analysis":
             st.markdown("Select sample data or configure options.")
             sample_data_path = '/content/sample_data/'
-            
+
             # Sample resume selector
             resume_dir = os.path.join(sample_data_path, 'resumes/Resumes/')
             resume_samples = [f for f in os.listdir(resume_dir) if f.endswith(('.pdf', '.docx'))] if os.path.exists(resume_dir) else []
             selected_resume = st.selectbox('Load Sample Resume:', ['None'] + resume_samples)
-            
+
             # Sample JD selector
             jd_dir = os.path.join(sample_data_path, 'jds/JD/')
             jd_samples = [f for f in os.listdir(jd_dir) if f.endswith('.pdf')] if os.path.exists(jd_dir) else []
@@ -321,7 +321,7 @@ Qualifications:
     elif page == "Dashboard":
         st.title("📊 Analysis Dashboard")
         st.markdown("### View Past Resume Analyses for Placement Team", unsafe_allow_html=True)
-        
+
         if st.session_state.analysis_history:
             df = pd.DataFrame(st.session_state.analysis_history)
             df['analysis_date'] = pd.to_datetime(df['analysis_date']).dt.strftime('%Y-%m-%d %H:%M:%S')
@@ -350,7 +350,7 @@ Qualifications:
 
     # Footer
     st.markdown("---")
-    st.markdown("**🏆 Built for 24-Hour Hackathon 2025 | Resume Relevance Check System**", unsafe_allow_html=True)
+    st.markdown("**Submitted by Team Insight Squad | Resume Relevance Check System**", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
