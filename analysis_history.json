@@ -1,0 +1,11 @@
+[
+  {
+    "resume_filename": "Resume - 7.pdf",
+    "jd_source": "sample_jd_2.pdf",
+    "relevance_score": 46.35506514248674,
+    "verdict": "Medium Suitability",
+    "skills_found": "Python, SQL, MySQL, AI, Git, Pandas, NumPy",
+    "missing_skills": "C++",
+    "analysis_date": "2025-09-21T05:10:10.934033"
+  }
+]
