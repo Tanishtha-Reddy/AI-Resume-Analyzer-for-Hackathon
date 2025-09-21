@@ -1,4 +1,3 @@
 # HACKATHON RESUME CHECKER
-AI-powered resume analysis tool for job matching.
-Run with: `streamlit run app.py`
-Sample data: Located in `sample_data/resumes/Resumes/` (PDFs, DOCX) and `sample_data/jds/JD/` (PDFs).
+Your original code organized into files. Run with streamlit run app.py
+Sample data: Unzipped JD.zip and Resumes.zip into /content/sample_data/jds/ and /content/sample_data/resumes/.

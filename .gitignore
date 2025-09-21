@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
 /content/sample_data/*.csv
-/content/sample_data/*.json
 JD.zip
 Resumes.zip
