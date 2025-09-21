@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+/content/sample_data/*.csv
+JD.zip
+Resumes.zip

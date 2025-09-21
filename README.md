@@ -1,7 +1,3 @@
-# AI-Resume-Analyzer-for-Hackathon
-
-### Team Name: Insight Squad
-### Team Members:K. Sai Tanishtha Reddy, Pranavi, D. Nikhitha
-### College Name: Marri Laxman Reddy Institute of Technology and Management, Dundigal, Hyderabad
-### Team Name: Insight Squad
-#
+# HACKATHON RESUME CHECKER
+Your original code organized into files. Run with streamlit run app.py
+Sample data: Unzipped JD.zip and Resumes.zip into /content/sample_data/jds/ and /content/sample_data/resumes/.
