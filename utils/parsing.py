@@ -1,7 +1,7 @@
 
 import PyPDF2
-import docx
-import re
+import docx 
+import re 
 
 def extract_text_from_pdf(pdf_file):
     """Extract text from PDF"""
